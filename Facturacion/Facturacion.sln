@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vista", "vista\vista.csproj", "{632E1D84-76EE-4E19-8BE5-708C1E349212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{0F740562-1074-4059-AE82-76F198A2E00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{00DC1397-F54B-4629-B7F3-53A86742380A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{632E1D84-76EE-4E19-8BE5-708C1E349212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E1D84-76EE-4E19-8BE5-708C1E349212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E1D84-76EE-4E19-8BE5-708C1E349212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E1D84-76EE-4E19-8BE5-708C1E349212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F740562-1074-4059-AE82-76F198A2E00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F740562-1074-4059-AE82-76F198A2E00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F740562-1074-4059-AE82-76F198A2E00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F740562-1074-4059-AE82-76F198A2E00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DC1397-F54B-4629-B7F3-53A86742380A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DC1397-F54B-4629-B7F3-53A86742380A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DC1397-F54B-4629-B7F3-53A86742380A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DC1397-F54B-4629-B7F3-53A86742380A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDE7F9A5-1229-447B-95B9-5D6382860DFF}
+	EndGlobalSection
+EndGlobal
