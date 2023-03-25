@@ -17,7 +17,7 @@ namespace vista
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormUsuarios usuariosForm = new FormUsuarios();
+            UserForm usuariosForm = new UserForm();
             usuariosForm.Show();
         }
 

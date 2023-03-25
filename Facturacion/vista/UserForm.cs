@@ -5,9 +5,9 @@ using System.Windows.Forms;
 
 namespace vista
 {
-    public partial class FormUsuarios : Form
+    public partial class UserForm : Form
     {
-        public FormUsuarios()
+        public UserForm()
         {
             InitializeComponent();
         }
@@ -19,10 +19,7 @@ namespace vista
             HabilitarControles();
             tipoOperacion = "Nuevo";
         }
-        private void CancelarButton_Click(object sender, EventArgs e)
-        {
-            DeshabilitarControles();
-        }
+
         private void HabilitarControles()
         {
             CodigoTextBox.Enabled = true;
@@ -48,6 +45,11 @@ namespace vista
             GuardarButton.Enabled = false;
             CancelarButton.Enabled = false;
             ModificarButton.Enabled = false;
+        }
+
+        private void CancelarButton_Click(object sender, EventArgs e)
+        {
+            DeshabilitarControles();
         }
         private void LimpiarControles()
         {
