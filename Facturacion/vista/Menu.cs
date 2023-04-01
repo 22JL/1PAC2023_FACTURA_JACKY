@@ -23,7 +23,7 @@ namespace vista
 
         private void ticketsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Tickets ticketsForm = new Tickets();
+            TicketsForm ticketsForm = new TicketsForm();
             ticketsForm.Show();
         }
     }
