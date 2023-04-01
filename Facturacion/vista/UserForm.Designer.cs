@@ -276,7 +276,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Name = "UserForm";
-            this.Text = "Prueba";
+            this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.UserForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.FotoPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UsuariosDataGridView)).EndInit();
