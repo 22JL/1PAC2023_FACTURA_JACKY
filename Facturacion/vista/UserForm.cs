@@ -67,6 +67,7 @@ namespace vista
             RolComboBox.Text = "";
             EstaActivoCheckBox.Checked = false;
             FotoPictureBox.Image = null;
+
         }
 
         private void ModificarButton_Click(object sender, EventArgs e)
@@ -108,7 +109,7 @@ namespace vista
                 }
                 errorProvider1.Clear();
 
-                // user.CodigoUsuario = CodigoTextBox.Text;
+                user.CodigoUsuario = CodigoTextBox.Text;
                 user.Nombre = NombreTextBox.Text;
                 user.Contraseña = ContraseniaTextBox.Text;
                 user.Rol = RolComboBox.Text;

@@ -57,7 +57,10 @@ namespace vista
             RespuestaTextBox.Clear();
             PrecioTextBox.Text = "";
             DescuentoTextBox.Clear();
-            TicketLabel.Text = "";
+            TicketLabel.Text = "------";
+            TotalLabel.Text = "------";
+            ISVlabel.Text = "------";
+
             FechaDateTimePicker.Value = DateTime.Now;
         }
 
